@@ -8,8 +8,26 @@ import Link from "next/link";
 export default function Home({ allPostsData }) {
   return (
     <Layout home>
-      <Head>…</Head>
-      <section className={utilStyles.headingMd}>…</section>
+      <Head>
+        <title>Kummallinen asia</title>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+      </Head>
+      <section className={utilStyles.headingMd}>
+        Sit consequat pariatur reprehenderit reprehenderit incididunt incididunt
+        cupidatat dolore incididunt. Officia do velit adipisicing duis
+        adipisicing. Exercitation velit consequat amet minim Lorem ad cillum
+        occaecat pariatur fugiat est nulla aliquip. Non tempor sit pariatur enim
+        officia. Enim et aute ipsum officia ex ullamco ex. Laborum sunt aliqua
+        culpa adipisicing Lorem mollit enim incididunt eu.
+      </section>
+      <br />
+      <section className={utilStyles.headingMd}>
+        Ullamco reprehenderit exercitation nulla enim occaecat ad ullamco dolore
+        veniam. Aliquip commodo deserunt ex Lorem occaecat minim Lorem nostrud
+        proident. Est ad irure quis officia est cillum duis minim. Lorem
+        consectetur enim sunt dolor qui consequat tempor labore ea velit
+        eiusmod.
+      </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
